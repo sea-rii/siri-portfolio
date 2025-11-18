@@ -51,7 +51,7 @@ Hosting:   GitHub Pages
 ├── /assets
 │   ├── posters/                   # Thumbnails, profile photo, banners
 │   └── certs/                     # certification pdf's and icons
-|   └── random/                    # backgrounds          
+│   └── random/                    # backgrounds          
 ├── /Pages
 │   └── achievements.html          # achievements page
 │   └── blogs.html                 # blogs page
