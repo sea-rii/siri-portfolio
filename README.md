@@ -1,2 +1,105 @@
-# siri-s-portfolio
-Portfolio of Sai Siri Chititneni. 
+# 🎬 Netflix-Style Portfolio
+
+> _"If Netflix can have categories for everything, why can’t I have one for my life?"_
+
+Welcome to my **Netflix-style personal portfolio** — a cinematic, scrollable experience where my **projects**, **books**, **music**, and **quotes** are laid out like shows on a streaming platform.
+
+Think:
+- Dark UI  
+- Bold typography  
+- Scrollable “rows” of cards  
+- Cozy little micro-interactions on hover  
+
+This repo contains the full source code for my portfolio website.
+
+---
+
+## 🖥 Live Site
+
+🔗 **Live Demo:** https://saisirichittineni.com/index.html  
+🔗 **Repository:** This repo 👇
+
+---
+
+## 🍿 Features (Binge-Worthy Stuff)
+
+- 🎞 **Netflix-inspired layout** – Dark theme, section “rows”, and hero-style headings  
+- 🧩 **Modular sections** – Projects, books, music, quotes, and more  
+- 🃏 **Card-based design** – Each card feels like a show tile (with hover effects)  
+- 📱 **Responsive design** – Looks good on laptop, tablet, and phone  
+- 🎨 **Custom styling** – Gradients, underlines, and tiny UI details  
+- ⚡ **Lightweight** – Pure HTML/CSS/JS (no heavy frameworks)  
+- 🌐 **Easy to deploy** – Works perfectly with GitHub Pages
+
+---
+
+## 🛠 Tech Stack
+
+```txt
+Frontend:  HTML5, CSS3, JavaScript  
+Styling:   Flexbox, CSS Grid, gradients, transitions  
+Icons:     SVGs / Icon libraries  
+Hosting:   GitHub Pages
+```
+
+---
+
+## 📂 Project Structure
+
+```txt
+.
+├── /assets
+│   ├── posters/                   # Thumbnails, profile photo, banners
+│   └── certs/                     # certification pdf's and icons
+│   └── random/                    # backgrounds          
+├── /Pages
+│   └── achievements.html          # achievements page
+│   └── blogs.html                 # blogs page
+│   └── books.html                 # books page
+│   └── certifications.html        # certifications page
+│   └── contact.html               # contact me page
+│   └── education.html             # education page
+│   └── experience.html            # experience page
+│   └── gratitude.html             # gratitude page
+│   └── hobbies.html               # hobbies page
+│   └── life-lessons.html          # life-lessons page
+│   └── music.html                 # music page
+│   └── photo-journal.html         # photo journal page
+│   └── project.html               # projects page
+│   └── quotes.html                # quotes page
+│   └── skills.html                # skills page
+│   └── work-permit.html           # work permit page
+├── index.html                     # Main landing page
+├── style.css                      # Global styles (Netflix vibe lives here)
+├── recruiter.html                 # recruiter mode
+├── developer.html                 # developer mode
+├── stalker.html                   # stalker mode
+├── adventurer.html                # adventurer mode
+├── main.js                
+├── CNAME                  
+└── README.md
+```
+
+---
+
+## 💬 Contact
+
+If you somehow ended up here and want to connect:
+
+📧 Email: sirichittineni23@gmail.com
+
+🌐 Website: https://saisirichittineni.com/index.html
+
+💼 LinkedIn: https://www.linkedin.com/in/saisirichittineni/
+
+---
+
+## ⭐ Support
+
+If you like this Netflix-style portfolio idea:
+
+Star ⭐ the repo
+
+Fork and make it your own
+
+Share it with someone who’s bored of “basic” portfolios
