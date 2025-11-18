@@ -16,7 +16,7 @@ This repo contains the full source code for my portfolio website.
 
 ## 🖥 Live Site
 
-🔗 **Live Demo:** [https://your-username.github.io/your-portfolio](https://your-username.github.io/your-portfolio)  
+🔗 **Live Demo:** https://saisirichittineni.com/index.html  
 🔗 **Repository:** This repo 👇
 
 ---
@@ -40,3 +40,18 @@ Frontend:  HTML5, CSS3, JavaScript
 Styling:   Flexbox, CSS Grid, gradients, transitions  
 Icons:     SVGs / Icon libraries  
 Hosting:   GitHub Pages
+
+---
+
+## 📂 Project Structure
+
+.
+├── index.html                # Main landing page
+├── /css
+│   └── style.css             # Global styles (Netflix vibe lives here)
+├── /js
+│   └── script.js             # Interactivity (scroll, hover, etc.)
+├── /assets
+│   ├── images/               # Thumbnails, profile photo, banners
+│   └── icons/                # SVGs / icon assets
+└── README.md
