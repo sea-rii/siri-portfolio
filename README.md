@@ -46,6 +46,7 @@ Hosting:   GitHub Pages
 
 ## 📂 Project Structure
 
+```txt
 .
 ├── /assets
 │   ├── posters/                   # Thumbnails, profile photo, banners
@@ -77,6 +78,7 @@ Hosting:   GitHub Pages
 ├── main.js                
 ├── CNAME                  
 └── README.md
+```
 
 ---
 
