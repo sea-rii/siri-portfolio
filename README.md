@@ -53,28 +53,32 @@ Hosting:   GitHub Pages
 │   └── certs/                     # certification pdf's and icons
 │   └── random/                    # backgrounds          
 ├── /Pages
-│   └── achievements.html          # achievements page
-│   └── blogs.html                 # blogs page
-│   └── books.html                 # books page
-│   └── certifications.html        # certifications page
-│   └── contact.html               # contact me page
-│   └── education.html             # education page
-│   └── experience.html            # experience page
-│   └── gratitude.html             # gratitude page
-│   └── hobbies.html               # hobbies page
-│   └── life-lessons.html          # life-lessons page
-│   └── music.html                 # music page
-│   └── photo-journal.html         # photo journal page
-│   └── project.html               # projects page
-│   └── quotes.html                # quotes page
-│   └── skills.html                # skills page
-│   └── work-permit.html           # work permit page
+│   └── achievements/              # achievements page
+│   └── blogs/                     # blogs page
+│   └── books/                     # books page
+│   └── certifications/            # certifications page
+│   └── contact/                   # contact me page
+│   └── education/                 # education page
+│   └── experience/                # experience page
+│   └── gratitude/                 # gratitude page
+│   └── hobbies/                   # hobbies page
+│   └── life-lessons/              # life-lessons page
+│   └── music/                     # music page
+│   └── photo-journal/             # photo journal page
+│   └── project/                   # projects page
+│   └── quotes/                    # quotes page
+│   └── skills/                    # skills page
+│   └── work-permit/               # work permit page
 ├── index.html                     # Main landing page
 ├── style.css                      # Global styles (Netflix vibe lives here)
-├── recruiter.html                 # recruiter mode
-├── developer.html                 # developer mode
-├── stalker.html                   # stalker mode
-├── adventurer.html                # adventurer mode
+├── /recruiter/
+│   └── index.html                 # recruiter mode
+├── /developer/
+│   └── index.html                 # developer mode
+├── /stalker/                  
+│   └── index.html                 # stalker mode
+├── /adventurer/              
+│   └── index.html                 # adventurer mode
 ├── main.js                
 ├── CNAME                  
 └── README.md
