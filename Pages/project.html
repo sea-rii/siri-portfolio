@@ -1,0 +1,154 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8" />
+  <title>Projects – Hey Siri</title>
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+  <link rel="stylesheet" href="../style.css" />
+</head>
+<body class="projects-page">
+
+  <header class="nav">
+    <div class="nav-left">
+      <a href="../index.html" class="logo">Hey Siri</a>
+    </div>
+  </header>
+
+  <main class="projects-wrapper">
+    <div class="projects-header">
+      <h1 class="projects-title">Projects</h1>
+      <div class="projects-underline"></div>
+      <p class="projects-description">
+        A snapshot of what I’ve been building, debugging, and learning along the way.
+      </p>
+    </div>
+
+    <!-- FEATURED PROJECT -->
+    <section class="featured-project">
+      <div>
+        <div class="featured-left-heading">Featured</div>
+        <h2 class="featured-title">Bias in Demographic Groups in LLMs</h2>
+        <p class="featured-tagline">
+          Evaluating representation bias in large language models using a two-tier labeling
+          pipeline on real medical data.
+        </p>
+        <p class="featured-meta">
+          Built a rule-based “truth generator”, GPT-powered QA agent, and matching engine to
+          compare ground-truth labels with model outputs across 15 demographic categories.
+        </p>
+
+        <div class="featured-tags">
+          <span class="featured-tag">Python</span>
+          <span class="featured-tag">LLMs</span>
+          <span class="featured-tag">NLP</span>
+          <span class="featured-tag">Fairness</span>
+          <span class="featured-tag">Healthcare</span>
+        </div>
+      </div>
+
+      <aside class="featured-poster">
+        <div>
+          <div class="featured-poster-title">Truth Generator</div>
+          <div class="featured-poster-chip">Research · Ongoing</div>
+        </div>
+        <div>📊</div>
+      </aside>
+      <a class="project-link" href="https://github.com/sea-rii/LLM_Representation_Bias_Proj" target="_blank">overview ↗</a>
+    </section>
+
+    <!-- ROW 1: Top Picks for Recruiters -->
+    <section class="project-section">
+      <h2 class="project-section-title">Top Pick</h2>
+      <p class="project-section-sub">
+        High-impact work that shows how I build, ship, and reason about systems.
+      </p>
+
+      <div class="project-rail">
+
+        <!-- Card: AIPM -->
+        <article class="project-card">
+          <div class="project-thumb thumb-aipm"></div>
+
+          <h3 class="project-title">AIProjectManager (Enterprise Workflow Tool)</h3>
+          <p class="project-desc">
+            ASP.NET MVC + MySQL app for managing organizations, workflows, and teams with
+            a focus on clean architecture and debugging complex flows.
+          </p>
+
+          <div class="project-tags">
+            <span class="project-tag">ASP.NET MVC</span>
+            <span class="project-tag">C#</span>
+            <span class="project-tag">MySQL</span>
+            <span class="project-tag">Entity Framework</span>
+          </div>
+
+          <!-- <a class="project-link" href="#" target="_blank">View repo ↗</a> -->
+        </article>
+
+        <!-- PawsInn -->
+        <article class="project-card">
+           <div class="project-thumb thumb-pawsinn"></div>
+
+          <h3 class="project-title">PawsInn (Enterprise Pet Boarding Platform)</h3>
+          <p class="project-desc">
+            Full-stack workflow platform for managing pet bookings, customer profiles, reservations, and staff operations with clean architecture and strong debugging.
+          </p>
+
+          <div class="project-tags">
+            <span class="project-tag">ASP.NET MVC</span>
+            <span class="project-tag">C#</span>
+            <span class="project-tag">MySQL</span>
+            <span class="project-tag">Entity Framework</span>
+            <span class="project-tag">Workflow Design</span>
+          </div>
+
+          <!--<a class="project-link" target="_blank">Private Project · Demo Only</a>-->
+        </article>
+
+        <!-- Card: Truth Generator Pipeline -->
+        <article class="project-card">
+          <div class="project-thumb thumb-llm"></div>
+
+          <h3 class="project-title">Truth Generator Pipeline</h3>
+          <p class="project-desc">
+            Rule-based engine + GPT QA reroute to generate demographic labels from
+            patient descriptions for bias evaluation studies.
+          </p>
+
+          <div class="project-tags">
+            <span class="project-tag">Python</span>
+            <span class="project-tag">Data Pipelines</span>
+            <span class="project-tag">LLMs</span>
+          </div>
+
+          <a class="project-link" href="https://github.com/sea-rii/LLM_Representation_Bias_Proj" target="_blank">Pipeline overview ↗</a>
+        </article>
+
+        <!-- SiriFlix Portfolio -->
+        <article class="project-card">
+          <div class="project-thumb thumb-artisan"></div>
+
+          <h3 class="project-title">This Portfolio</h3>
+          <p class="project-desc">
+            This Netflix-style portfolio, complete with profiles, rails, and poster cards
+            tailored to recruiters, devs, and friends.
+          </p>
+
+          <div class="project-tags">
+            <span class="project-tag">HTML</span>
+            <span class="project-tag">CSS</span>
+            <span class="project-tag">Vanilla JS</span>
+          </div>
+
+          <a class="project-link" href="https://github.com/sea-rii/siri-portfolio" target="_blank">overview ↗</a>
+          <a class="project-link" href="/" target="_blank">Go to home ↗</a>
+        </article>
+
+      </div>
+    </section>
+
+  </main>
+
+  <script src="../main.js"></script>
+</body>
+</html>

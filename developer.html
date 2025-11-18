@@ -1,0 +1,110 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8" />
+  <title>SiriFlix – Developer View</title>
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+  <link rel="stylesheet" href="style.css" />
+  <link rel="icon" href="siri-portrait.jpg" />
+</head>
+<body class="netflix-body">
+  <header class="nav">
+    <div class="nav-left">
+      <a href="index.html" class="logo">Hey Siri</a>
+      <a href="#experience" class="nav-link">Experience</a>
+      <a href="#projects" class="nav-link">Projects</a>
+      <a href="#certs" class="nav-link">Certifications</a>
+      <a href="#contact" class="nav-link">Contact Me</a>
+    </div>
+    <div class="nav-right">
+      <a href="recruiter.html" class="nav-profile">Recruiter</a>
+      <a href="developer.html" class="nav-profile current-profile">Developer</a>
+      <a href="stalker.html" class="nav-profile">Stalker</a>
+      <a href="adventurer.html" class="nav-profile">Adventurer</a>
+    </div>
+  </header>
+
+  <main class="page-main">
+    <section class="hero" id="top">
+      <video autoplay muted loop class="hero-bg-video">
+        <source src="assets/random/developer-bg.mp4" type="video/mp4" />
+      </video>
+      <div class="hero-overlay"></div>
+
+      <div class="hero-content">
+        <div class="hero-left">
+          <h1 class="hero-title">Hi, I'm Siri.</h1>
+          <h2 class="hero-subtitle">I ship features &amp; break biases.</h2>
+          <p class="hero-description">
+            I write Python, C#, and JavaScript, build ASP.NET MVC apps, 
+            and run experiments on LLMs to make them less biased and more useful.
+            I love debugging gnarly issues and designing clean, humane interfaces.
+          </p>
+          <div class="hero-buttons">
+            <a href="https://github.com/sea-rii" class="btn btn-primary" target="_blank" rel="noopener noreferrer">
+              ▶ View Code
+            </a>
+            <a href="assets/random/Siri-Resume.pdf" class="btn btn-secondary" target="_blank" rel="noopener noreferrer">
+              Resume
+            </a>
+          </div>
+        </div>
+
+        <div class="hero-right">
+          <img src="assets/random/siri-portrait.jpg" alt="Sai Siri Chittineni" class="hero-portrait" />
+        </div>
+      </div>
+    </section>
+
+    <!-- Poster-style rows for recruiter -->
+    <section class="poster-section" id="recruiter-top-picks">
+      <h2 class="poster-title">Today's Top Picks for Developer</h2>
+
+      <div class="poster-row">
+        <a href="pages/experience.html" class="poster-card poster-experience">
+          <span>Experience</span>
+        </a>
+        <a href="pages/project.html" class="poster-card poster-projects">
+          <span>Projects</span>
+        </a>
+        <a href="Pages/education.html" class="poster-card poster-education">
+          <span>Education</span>
+        </a>
+        <a href="pages/skills.html" class="poster-card poster-skills">
+          <span>Skills</span>
+        </a>
+        <a href="pages/certifications.html" class="poster-card poster-certs">
+          <span>Certifications</span>
+        </a>
+        <a href="pages/achievements.html" class="poster-card poster-achievements">
+          <span>Achievements</span>
+        </a>
+        <a href="pages/blogs.html" class="poster-card poster-blogs">
+          <span>Blogs</span>
+        </a>
+      </div>
+    </section>
+
+    <section class="poster-section" id="recruiter-continue">
+      <h2 class="poster-title">Continue Watching for Developer</h2>
+
+      <div class="poster-row">
+        <a href="pages/quotes.html" class="poster-card poster-quotes">
+          <span>Fav Quotes</span>
+        </a>
+        <a href="pages/hobbies.html" class="poster-card poster-hobbies">
+          <span>Hobbies</span>
+        </a>
+        <a href="pages/contact.html" class="poster-card poster-contact">
+          <span>Contact Me</span>
+        </a>
+      </div>
+    </section>
+
+  <footer class="site-footer">
+    <p>© <span id="year"></span> Sai Siri Chittineni • saisirichittineni.com</p>
+  </footer>
+
+  <script src="main.js"></script>
+</body>
+</html>

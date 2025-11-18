@@ -1,0 +1,88 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8" />
+  <title>SiriFlix – Adventurer View</title>
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+  <link rel="stylesheet" href="style.css" />
+  <link rel="icon" href="siri-portrait.jpg" />
+</head>
+<body class="netflix-body">
+  <header class="nav">
+    <div class="nav-left">
+      <a href="index.html" class="logo">Hey Siri</a>
+      <a href="#quotes" class="nav-link">Quotes</a>
+      <a href="#life-lessons" class="nav-link">Life Lessons</a>
+      <a href="#photo-journal" class="nav-link">Photo Journal</a>
+    </div>
+    <div class="nav-right">
+      <a href="recruiter.html" class="nav-profile">Recruiter</a>
+      <a href="developer.html" class="nav-profile">Developer</a>
+      <a href="stalker.html" class="nav-profile">Stalker</a>
+      <a href="adventurer.html" class="nav-profile current-profile">Adventurer</a>
+    </div>
+  </header>
+
+  <main class="page-main">
+    <section class="hero" id="top">
+      <video autoplay muted loop class="hero-bg-video">
+        <source src="assets/random/adventurer-bg.mp4" type="video/mp4" />
+      </video>
+      <div class="hero-overlay"></div>
+      
+      <div class="hero-content">
+        <div class="hero-left">
+          <h1 class="hero-title">Siri’s Little Universe</h1>
+          <h2 class="hero-subtitle">Trips, journals, and cozy chaos.</h2>
+          <p class="hero-description">
+            This isn't the formal portfolio. This is where I stash memories, 
+            future adventures, and tiny reminders of how far life has already moved.
+          </p>
+        </div>
+      </div>
+    </section>
+
+    <!-- Poster-style rows for recruiter -->
+    <section class="poster-section" id="recruiter-top-picks">
+      <h2 class="poster-title">Today's Top Picks for Adventurer</h2>
+
+      <div class="poster-row">
+        <a href="Pages/books.html" class="poster-card poster-books">
+          <span>Books</span>
+        </a>
+        <a href="Pages/music.html" class="poster-card poster-music">
+          <span>Music</span>
+        </a>
+        <a href="Pages/quotes.html" class="poster-card poster-quotes">
+          <span>Fav Quotes</span>
+        </a>
+        <a href="Pages/photo-journal.html" class="poster-card poster-photo-journal">
+          <span>Photo Journal</span>
+        </a>
+        <a href="pages/blogs.html" class="poster-card poster-blogs">
+          <span>Blogs</span>
+        </a>
+      </div>
+    </section>
+
+    <section class="poster-section" id="recruiter-continue">
+      <h2 class="poster-title">Continue Watching for Adventurer</h2>
+
+      <div class="poster-row">
+        <a href="pages/hobbies.html" class="poster-card poster-hobbies">
+          <span>Hobbies</span>
+        </a>
+        <a href="Pages/gratitude.html" class="poster-card poster-gratitude">
+          <span>Gratitude</span>
+        </a>
+      </div>
+    </section>
+
+
+  <footer class="site-footer">
+      <p>© <span id="year"></span> Sai Siri Chittineni • saisirichittineni.com</p>
+  </footer>
+
+  <script src="main.js"></script>
+</body>
+</html>
