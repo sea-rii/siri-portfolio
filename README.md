@@ -87,7 +87,7 @@ If you somehow ended up here and want to connect:
 
 📧 Email: sirichittineni23@gmail.com
 
-🌐 Website: https://saisirichittineni.com/index.html
+🌐 Website: https://saisirichittineni.com/
 
 💼 LinkedIn: https://www.linkedin.com/in/saisirichittineni/
 
