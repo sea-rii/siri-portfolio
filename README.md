@@ -15,7 +15,8 @@ This repo contains the full source code for my portfolio website.
 
 ## 🖥 Live Site
 
-🔗 **Live Demo:** https://saisirichittineni.com/ 
+🔗 **Live Demo:** https://saisirichittineni.com/   
+
 🔗 **Repository:** This repo 👇
 
 
@@ -87,7 +88,7 @@ If you somehow ended up here and want to connect:
 
 📧 Email: sirichittineni23@gmail.com
 
-🌐 Website: https://saisirichittineni.com/
+
 
 💼 LinkedIn: https://www.linkedin.com/in/saisirichittineni/
 
@@ -97,7 +98,5 @@ If you somehow ended up here and want to connect:
 If you like this Netflix-style portfolio idea:
 
 Star ⭐ the repo
-
-Fork and make it your own
 
 Share it with someone who’s bored of “basic” portfolios
