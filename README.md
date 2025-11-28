@@ -12,14 +12,12 @@ Think:
 
 This repo contains the full source code for my portfolio website.
 
----
 
 ## 🖥 Live Site
 
 🔗 **Live Demo:** https://saisirichittineni.com/index.html  
 🔗 **Repository:** This repo 👇
 
----
 
 ## 🍿 Features (Binge-Worthy Stuff)
 
@@ -31,7 +29,6 @@ This repo contains the full source code for my portfolio website.
 - ⚡ **Lightweight** – Pure HTML/CSS/JS (no heavy frameworks)  
 - 🌐 **Easy to deploy** – Works perfectly with GitHub Pages
 
----
 
 ## 🛠 Tech Stack
 
@@ -42,7 +39,6 @@ Icons:     SVGs / Icon libraries
 Hosting:   GitHub Pages
 ```
 
----
 
 ## 📂 Project Structure
 
@@ -84,7 +80,6 @@ Hosting:   GitHub Pages
 └── README.md
 ```
 
----
 
 ## 💬 Contact
 
@@ -96,7 +91,6 @@ If you somehow ended up here and want to connect:
 
 💼 LinkedIn: https://www.linkedin.com/in/saisirichittineni/
 
----
 
 ## ⭐ Support
 
