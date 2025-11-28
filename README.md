@@ -15,7 +15,7 @@ This repo contains the full source code for my portfolio website.
 
 ## 🖥 Live Site
 
-🔗 **Live Demo:** https://saisirichittineni.com/index.html  
+🔗 **Live Demo:** https://saisirichittineni.com/ 
 🔗 **Repository:** This repo 👇
 
 
