@@ -19,6 +19,8 @@ This repo contains the full source code for my portfolio website.
 
 🔗 **Repository:** This repo 👇
 
+🔗 **Blog:** https://medium.com/@saisirichittineni/building-my-netflix-style-portfolio-a-little-story-about-design-identity-code-57a621ecfcd8
+
 
 ## 🍿 Features (Binge-Worthy Stuff)
 
