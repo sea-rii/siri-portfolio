@@ -1,0 +1,80 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+  <title>SiriFlix Studio Settings</title>
+  <link rel="stylesheet" href="./admin.css" />
+</head>
+<body>
+  <div class="dashboard-bg-overlay"></div>
+
+  <header class="studio-topbar">
+    <div class="topbar-left">
+      <p class="brand-kicker">HEY SIRI</p>
+      <h1 class="studio-title">SiriFlix Studio</h1>
+    </div>
+
+    <div class="topbar-right">
+      <a href="../../index.html" class="ghost-btn">View Portfolio</a>
+      <button id="logout-btn" class="danger-btn">Logout</button>
+    </div>
+  </header>
+
+  <main class="admin-shell page-stack">
+    <nav class="admin-nav">
+      <a href="./dashboard.html" class="admin-nav-link">Dashboard</a>
+      <a href="./projects.html" class="admin-nav-link">Projects</a>
+      <a href="./settings.html" class="admin-nav-link active">Settings</a>
+      <a href="./uploads.html" class="admin-nav-link">Uploads</a>
+      <a href="./analytics.html" class="admin-nav-link">Analytics</a>
+    </nav>
+
+    <section class="admin-card">
+      <div class="section-header">
+        <h2>Portfolio Settings</h2>
+        <span class="section-pill">Profile Control</span>
+      </div>
+
+      <form id="settings-form" class="grid-2">
+        <div class="field-group">
+          <label for="settings-email" class="admin-label">Public Email</label>
+          <input type="text" id="settings-email" class="admin-input" placeholder="you@example.com" />
+        </div>
+
+        <div class="field-group">
+          <label for="settings-resumeUrl" class="admin-label">Resume URL</label>
+          <input type="text" id="settings-resumeUrl" class="admin-input" placeholder="https://..." />
+        </div>
+
+        <div class="field-group">
+          <label for="settings-linkedinUrl" class="admin-label">LinkedIn URL</label>
+          <input type="text" id="settings-linkedinUrl" class="admin-input" placeholder="https://linkedin.com/in/..." />
+        </div>
+
+        <div class="field-group">
+          <label for="settings-githubUrl" class="admin-label">GitHub URL</label>
+          <input type="text" id="settings-githubUrl" class="admin-input" placeholder="https://github.com/..." />
+        </div>
+
+        <div class="field-group" style="grid-column: 1 / -1;">
+          <label for="settings-profileImageUrl" class="admin-label">Profile Image URL</label>
+          <input type="text" id="settings-profileImageUrl" class="admin-input" placeholder="https://image..." />
+        </div>
+
+        <div class="field-group" style="grid-column: 1 / -1;">
+          <label for="settings-aboutText" class="admin-label">About Text</label>
+          <textarea id="settings-aboutText" class="admin-textarea" placeholder="Write your about section here..."></textarea>
+        </div>
+
+        <div style="grid-column: 1 / -1; display: flex; gap: 0.8rem; align-items: center; flex-wrap: wrap;">
+          <button type="submit" class="netflix-btn">Save Settings</button>
+          <p id="settings-message" class="form-message"></p>
+        </div>
+      </form>
+    </section>
+  </main>
+
+  <script src="./admin.js"></script>
+</body>
+</html>

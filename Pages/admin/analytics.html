@@ -1,0 +1,90 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+  <title>SiriFlix Studio Analytics</title>
+  <link rel="stylesheet" href="./admin.css" />
+</head>
+<body>
+  <div class="dashboard-bg-overlay"></div>
+
+  <header class="studio-topbar">
+    <div class="topbar-left">
+      <p class="brand-kicker">HEY SIRI</p>
+      <h1 class="studio-title">SiriFlix Studio</h1>
+    </div>
+
+    <div class="topbar-right">
+      <a href="../../index.html" class="ghost-btn">View Portfolio</a>
+      <button id="logout-btn" class="danger-btn">Logout</button>
+    </div>
+  </header>
+
+  <main class="admin-shell page-stack">
+    <nav class="admin-nav">
+      <a href="./dashboard.html" class="admin-nav-link">Dashboard</a>
+      <a href="./projects.html" class="admin-nav-link">Projects</a>
+      <a href="./settings.html" class="admin-nav-link">Settings</a>
+      <a href="./uploads.html" class="admin-nav-link">Uploads</a>
+      <a href="./analytics.html" class="admin-nav-link active">Analytics</a>
+    </nav>
+
+    <section class="stats-grid">
+      <article class="stat-card">
+        <p class="stat-label">Page Views</p>
+        <h3 id="total-views">--</h3>
+      </article>
+
+      <article class="stat-card">
+        <p class="stat-label">Resume Downloads</p>
+        <h3 id="resume-downloads">--</h3>
+      </article>
+
+      <article class="stat-card">
+        <p class="stat-label">Project Clicks</p>
+        <h3 id="project-clicks">--</h3>
+      </article>
+
+      <article class="stat-card">
+        <p class="stat-label">Total Projects</p>
+        <h3 id="total-projects">--</h3>
+      </article>
+    </section>
+
+    <section class="grid-2">
+      <article class="panel-card">
+        <div class="section-header">
+          <h2>Top Performing Projects</h2>
+          <span class="section-pill">Ranked</span>
+        </div>
+        <div id="top-projects-list" class="rank-list">
+          <div class="empty-state-card">Loading...</div>
+        </div>
+      </article>
+
+      <article class="panel-card">
+        <div class="section-header">
+          <h2>Top Viewed Pages</h2>
+          <span class="section-pill">Views</span>
+        </div>
+        <div id="top-pages-list" class="rank-list">
+          <div class="empty-state-card">Loading...</div>
+        </div>
+      </article>
+    </section>
+
+    <section class="admin-card">
+      <div class="section-header">
+        <h2>Recent Activity Feed</h2>
+        <span class="section-pill">Live Events</span>
+      </div>
+      <div id="recent-activity-list" class="activity-list">
+        <div class="empty-state-card">Loading...</div>
+      </div>
+    </section>
+  </main>
+
+  <script src="./admin.js"></script>
+</body>
+</html>

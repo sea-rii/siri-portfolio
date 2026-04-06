@@ -1,0 +1,111 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+  <title>SiriFlix Studio Projects</title>
+  <link rel="stylesheet" href="./admin.css" />
+</head>
+<body>
+  <div class="dashboard-bg-overlay"></div>
+
+  <header class="studio-topbar">
+    <div class="topbar-left">
+      <p class="brand-kicker">HEY SIRI</p>
+      <h1 class="studio-title">SiriFlix Studio</h1>
+    </div>
+
+    <div class="topbar-right">
+      <a href="../../index.html" class="ghost-btn">View Portfolio</a>
+      <button id="logout-btn" class="danger-btn">Logout</button>
+    </div>
+  </header>
+
+  <main class="admin-shell page-stack">
+    <nav class="admin-nav">
+      <a href="./dashboard.html" class="admin-nav-link">Dashboard</a>
+      <a href="./projects.html" class="admin-nav-link active">Projects</a>
+      <a href="./settings.html" class="admin-nav-link">Settings</a>
+      <a href="./uploads.html" class="admin-nav-link">Uploads</a>
+      <a href="./analytics.html" class="admin-nav-link">Analytics</a>
+    </nav>
+
+    <section class="admin-card">
+      <div class="section-header">
+        <h2>Add or Edit Project</h2>
+        <span class="section-pill">Project Library</span>
+      </div>
+
+      <form id="project-form" class="grid-2">
+        <input type="hidden" id="project-id" />
+
+        <div class="field-group">
+          <label for="title" class="admin-label">Project Title</label>
+          <input type="text" id="title" class="admin-input" placeholder="Poplio" required />
+        </div>
+
+        <div class="field-group">
+          <label for="techStack" class="admin-label">Tech Stack</label>
+          <input type="text" id="techStack" class="admin-input" placeholder="Next.js, Prisma, PostgreSQL" />
+        </div>
+
+        <div class="field-group">
+          <label for="githubUrl" class="admin-label">GitHub URL</label>
+          <input type="text" id="githubUrl" class="admin-input" placeholder="https://github.com/..." />
+        </div>
+
+        <div class="field-group">
+          <label for="liveUrl" class="admin-label">Live URL</label>
+          <input type="text" id="liveUrl" class="admin-input" placeholder="https://..." />
+        </div>
+
+        <div class="field-group">
+          <label for="imageUrl" class="admin-label">Image URL</label>
+          <input type="text" id="imageUrl" class="admin-input" placeholder="https://image..." />
+        </div>
+
+        <div class="field-group">
+          <label for="displayOrder" class="admin-label">Display Order</label>
+          <input type="number" id="displayOrder" class="admin-input" placeholder="0" />
+        </div>
+
+        <div class="field-group" style="grid-column: 1 / -1;">
+          <label for="description" class="admin-label">Description</label>
+          <textarea id="description" class="admin-textarea" placeholder="Write a short project description..." required></textarea>
+        </div>
+
+        <div class="field-group">
+          <label class="checkbox-wrap">
+            <input type="checkbox" id="featured" />
+            <span>Featured Project</span>
+          </label>
+        </div>
+
+        <div class="field-group">
+          <label class="admin-label">Image Preview</label>
+          <div id="image-preview-box" class="empty-state-card">Add an image URL to preview it here.</div>
+        </div>
+
+        <div style="grid-column: 1 / -1; display: flex; gap: 0.8rem; align-items: center; flex-wrap: wrap;">
+          <button type="submit" class="netflix-btn">Save Project</button>
+          <button type="button" id="reset-project-form" class="ghost-btn">Clear</button>
+          <p id="project-message" class="form-message"></p>
+        </div>
+      </form>
+    </section>
+
+    <section class="admin-card">
+      <div class="section-header">
+        <h2>Project Library</h2>
+        <span class="section-pill">Live Content</span>
+      </div>
+
+      <div id="projects-grid" class="poster-grid">
+        <div class="empty-state-card">Loading projects...</div>
+      </div>
+    </section>
+  </main>
+
+  <script src="./admin.js"></script>
+</body>
+</html>

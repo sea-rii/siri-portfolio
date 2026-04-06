@@ -1,0 +1,76 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+  <title>SiriFlix Studio Uploads</title>
+  <link rel="stylesheet" href="./admin.css" />
+</head>
+<body>
+  <div class="dashboard-bg-overlay"></div>
+
+  <header class="studio-topbar">
+    <div class="topbar-left">
+      <p class="brand-kicker">HEY SIRI</p>
+      <h1 class="studio-title">SiriFlix Studio</h1>
+    </div>
+
+    <div class="topbar-right">
+      <a href="../../index.html" class="ghost-btn">View Portfolio</a>
+      <button id="logout-btn" class="danger-btn">Logout</button>
+    </div>
+  </header>
+
+  <main class="admin-shell page-stack">
+    <nav class="admin-nav">
+      <a href="./dashboard.html" class="admin-nav-link">Dashboard</a>
+      <a href="./projects.html" class="admin-nav-link">Projects</a>
+      <a href="./settings.html" class="admin-nav-link">Settings</a>
+      <a href="./uploads.html" class="admin-nav-link active">Uploads</a>
+      <a href="./analytics.html" class="admin-nav-link">Analytics</a>
+    </nav>
+
+    <section class="admin-card">
+      <div class="section-header">
+        <h2>Upload File</h2>
+        <span class="section-pill">Assets</span>
+      </div>
+
+      <form id="upload-form" class="grid-2">
+        <div class="field-group">
+          <label for="upload-category" class="admin-label">Category</label>
+          <select id="upload-category" class="admin-select">
+            <option value="general">General</option>
+            <option value="resume">Resume</option>
+            <option value="project_image">Project Image</option>
+            <option value="certificate">Certificate</option>
+          </select>
+        </div>
+
+        <div class="field-group">
+          <label for="upload-file" class="admin-label">Choose File</label>
+          <input type="file" id="upload-file" class="admin-input" />
+        </div>
+
+        <div style="grid-column: 1 / -1; display: flex; gap: 0.8rem; align-items: center; flex-wrap: wrap;">
+          <button type="submit" class="netflix-btn">Upload</button>
+          <p id="upload-message" class="form-message"></p>
+        </div>
+      </form>
+    </section>
+
+    <section class="admin-card">
+      <div class="section-header">
+        <h2>Upload Library</h2>
+        <span class="section-pill">Stored Files</span>
+      </div>
+
+      <div id="uploads-grid" class="upload-grid">
+        <div class="empty-state-card">Loading uploads...</div>
+      </div>
+    </section>
+  </main>
+
+  <script src="./admin.js"></script>
+</body>
+</html>
